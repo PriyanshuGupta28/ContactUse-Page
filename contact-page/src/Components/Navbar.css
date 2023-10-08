@@ -48,3 +48,64 @@
   font-weight: bolder; /* Apply bold font weight on hover */
   cursor: pointer; /* Change cursor to pointer on hover */
 }
+.hamburger {
+  display: none;
+}
+.slider {
+  width: 70%;
+  height: 100%;
+  background-color: #191527;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbarRoot {
+    padding: 2rem 2rem; /* Add padding to the navbar */
+  }
+  .navLinks {
+    display: none;
+  }
+  .navButton button {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    font-size: 30px;
+    color: #b5baf2;
+  }
+  .navButton1 button {
+    border: none; /* Remove button borders */
+    border: 1px solid #4858e8; /* Add a border with a specific color */
+    padding: 1rem 1rem; /* Add padding to the buttons */
+    border-left: 5px solid #4858e8; /* Add a left border with a different color */
+    background-color: transparent; /* Set a transparent background */
+    color: #4858e8; /* Set the text color */
+    font-weight: bolder; /* Apply a bold font weight */
+    transition: 0.2s ease-in-out; /* Add a smooth transition effect */
+  }
+
+  /* Styles for navigation buttons on hover */
+  .navButton1 button:hover {
+    border: 1px solid #191527; /* Change border color on hover */
+    border-left: 5px solid #191527; /* Change left border color on hover */
+    background-color: white; /* Change background color on hover */
+    color: #191527; /* Change text color on hover */
+    font-weight: bolder; /* Apply bold font weight on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+
+  .lastDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

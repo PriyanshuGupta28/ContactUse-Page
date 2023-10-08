@@ -9,8 +9,8 @@ function App() {
       <section>
         <Navbar />
         <Form />
+        <Footer />
       </section>
-      <Footer />
     </div>
   );
 }

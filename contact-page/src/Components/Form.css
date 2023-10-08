@@ -271,3 +271,55 @@
   padding: 0; /* Remove padding */
   line-height: 1.5; /* Line height for error messages */
 }
+
+@media only screen and (max-width: 992px) {
+  .formContainer {
+    flex-direction: column;
+  }
+  .formRoot {
+    width: 100%;
+  }
+  .formInput {
+    width: 100%;
+  }
+  .socialLinks {
+    margin-top: 5rem;
+  }
+  .formSubmit {
+    background-color: white; /* Background color */
+    padding: 2rem 1rem; /* Padding for the form submission section */
+  }
+  /* Styles for the submit button within the form submission section */
+  .submitButton button {
+    display: flex; /* Display children in a row */
+    width: 60%; /* Set the width of the button */
+    align-items: center; /* Align items vertically */
+    border: none; /* Remove border */
+    border: 1px solid #4858e8; /* Border style */
+    padding: 0 10px; /* Padding for the button */
+    border-left: 5px solid #4858e8; /* Left border with a different color */
+    background-color: transparent; /* Transparent background */
+    color: #4858e8; /* Text color */
+    font-weight: bolder; /* Bold font weight */
+    transition: 0.2s ease-in-out; /* Smooth transition on hover */
+    font-weight: bold; /* Bold font weight */
+  }
+
+  /* Styles for the submit button on hover */
+  .submitButton button:hover {
+    border: 1px solid #191527; /* Border color on hover */
+    border-left: 5px solid #191527; /* Left border color on hover */
+    background-color: white; /* Background color on hover */
+    color: #191527; /* Text color on hover */
+    font-weight: bolder; /* Bold font weight on hover */
+    cursor: pointer; /* Cursor style on hover */
+  }
+
+  /* Styles for the icon within the submit button */
+  .submitButton button svg {
+    color: #4858e8; /* Icon color */
+    height: 30px; /* Icon height */
+    width: 30px; /* Icon width */
+    margin-left: 1rem; /* Left margin for spacing */
+  }
+}

@@ -8,7 +8,32 @@
 }
 
 /* Styles for individual sections within the footer */
-.footerSection {
+.footerSection1 {
+  display: flex; /* Display children in a column */
+  flex-direction: column; /* Stack children vertically */
+  width: 15rem; /* Set a fixed width for the section */
+  gap: 1rem; /* Spacing between child elements */
+  font-size: 13px; /* Font size for text within the section */
+}
+
+/* Styles for individual sections within the footer */
+.footerSection2 {
+  display: flex; /* Display children in a column */
+  flex-direction: column; /* Stack children vertically */
+  width: 15rem; /* Set a fixed width for the section */
+  gap: 1rem; /* Spacing between child elements */
+  font-size: 13px; /* Font size for text within the section */
+}
+/* Styles for individual sections within the footer */
+.footerSection3 {
+  display: flex; /* Display children in a column */
+  flex-direction: column; /* Stack children vertically */
+  width: 15rem; /* Set a fixed width for the section */
+  gap: 1rem; /* Spacing between child elements */
+  font-size: 13px; /* Font size for text within the section */
+}
+/* Styles for individual sections within the footer */
+.footerSection4 {
   display: flex; /* Display children in a column */
   flex-direction: column; /* Stack children vertically */
   width: 15rem; /* Set a fixed width for the section */
@@ -55,4 +80,23 @@
 .socialIcon {
   font-size: 30px; /* Font size for social icons */
   color: #bec4fe; /* Icon color */
+}
+
+@media only screen and (max-width: 992px) {
+  .footerRoot {
+    display: flex; /* Display children in a row */
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space evenly between children */
+
+    padding: 2rem 2rem; /* Top and bottom padding of 10rem, left and right padding of 20rem */
+  }
+  .footerSection2 {
+    display: none;
+  }
+  .footerSection3 {
+    display: none;
+  }
+  .footerSection4 {
+    margin-top: 5rem;
+  }
 }

@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="footerRoot">
       {/* Root container for the footer */}
-      <div className="footerSection">
+      <div className="footerSection1">
         {/* First section of the footer */}
         <div className="logo">
           <img src="" alt="Logo" />
@@ -20,7 +20,7 @@ const Footer = () => {
           solutions to customers throughout the world for securing innovations.
         </div>
       </div>
-      <div className="footerSection">
+      <div className="footerSection2">
         {/* Second section of the footer */}
         <div className="sectionTitle">Services</div>
         <div>Web Application Penetration Testing</div>
@@ -30,7 +30,7 @@ const Footer = () => {
         <div>Compliance</div>
         <div>SOC</div>
       </div>
-      <div className="footerSection">
+      <div className="footerSection3">
         {/* Third section of the footer */}
         <div className="sectionTitle">About Us</div>
         <div>Our Story</div>
@@ -40,7 +40,7 @@ const Footer = () => {
         <div>Careers</div>
         <div>Awards</div>
       </div>
-      <div className="footerSection">
+      <div className="footerSection4">
         {/* Fourth section of the footer */}
         <div className="navButton">
           <button>CONTACT US</button>
