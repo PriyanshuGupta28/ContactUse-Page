@@ -1,0 +1,58 @@
+/* Styles for the root container of the footer */
+.footerRoot {
+  display: flex; /* Display children in a row */
+  justify-content: space-around; /* Distribute space evenly between children */
+  padding: 10rem 20rem; /* Top and bottom padding of 10rem, left and right padding of 20rem */
+  background-color: #06071a; /* Background color */
+  color: white; /* Text color */
+}
+
+/* Styles for individual sections within the footer */
+.footerSection {
+  display: flex; /* Display children in a column */
+  flex-direction: column; /* Stack children vertically */
+  width: 15rem; /* Set a fixed width for the section */
+  gap: 1rem; /* Spacing between child elements */
+  font-size: 13px; /* Font size for text within the section */
+}
+
+/* Styles for section titles within the footer sections */
+.sectionTitle {
+  font-weight: 700; /* Bold font weight */
+  color: #5460da; /* Title text color */
+  margin-bottom: 1rem; /* Spacing at the bottom of the title */
+}
+
+/* Styles for the "CONTACT US" button within the footer */
+.footerButton button {
+  border: none; /* Remove border */
+  border: 1px solid #4858e8; /* Add border with color */
+  padding: 0 2rem; /* Horizontal padding */
+  border-left: 5px solid #4858e8; /* Left border with a different color */
+  background-color: transparent; /* Transparent background */
+  color: #4858e8; /* Text color */
+  font-weight: bolder; /* Bold font weight */
+  transition: 0.2s ease-in-out; /* Smooth transition on hover */
+}
+
+/* Styles for the "CONTACT US" button on hover */
+.footerButton button:hover {
+  border: 1px solid #191527; /* Border color on hover */
+  border-left: 5px solid #191527; /* Left border color on hover */
+  background-color: white; /* Background color on hover */
+  color: #191527; /* Text color on hover */
+  font-weight: bolder; /* Bold font weight on hover */
+  cursor: pointer; /* Cursor style on hover */
+}
+
+/* Styles for the social media links within the footer */
+.socialLinks {
+  display: flex; /* Display social icons in a row */
+  gap: 2rem; /* Spacing between social icons */
+}
+
+/* Styles for individual social media icons */
+.socialIcon {
+  font-size: 30px; /* Font size for social icons */
+  color: #bec4fe; /* Icon color */
+}

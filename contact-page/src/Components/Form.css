@@ -1,0 +1,273 @@
+/* Styles for the root container of the form */
+.formRoot {
+  color: white; /* Text color */
+  width: 70%; /* Set the width of the form */
+  margin: auto; /* Center the form horizontally */
+  margin-top: 5rem; /* Add top margin for spacing */
+}
+
+/* Styles for the container of the form */
+.formContainer {
+  display: flex; /* Display children in a row */
+  justify-content: space-between; /* Distribute space evenly between children */
+  padding: 2rem; /* Padding for the container */
+  background: rgba(23, 21, 37, 0.5); /* Background color with transparency */
+  -webkit-backdrop-filter: blur(
+    10px
+  ); /* Apply a backdrop blur effect (Webkit) */
+  backdrop-filter: blur(10px); /* Apply a backdrop blur effect */
+  margin-bottom: 5rem; /* Add bottom margin for spacing */
+}
+
+/* Styles for the form information section */
+.formInfo {
+  padding: 2rem; /* Padding for form information */
+  display: flex; /* Display children in a column */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: space-between; /* Distribute space evenly between children */
+}
+
+/* Styles for the form heading */
+.formHeading {
+  font-size: 30px; /* Font size for the heading */
+}
+
+/* Styles for the form description */
+.formDesc {
+  font-size: 15px; /* Font size for the description */
+  color: #b5bbf3; /* Text color */
+  margin-top: 1rem; /* Top margin for spacing */
+}
+
+/* Styles for the email section */
+.formEmail {
+  display: flex; /* Display children in a row */
+  gap: 1rem; /* Spacing between child elements */
+  margin-top: 5rem; /* Top margin for spacing */
+}
+
+/* Styles for text inputs in the form */
+.formText {
+  width: 16rem; /* Set a fixed width for text inputs */
+}
+
+/* Styles for form icons */
+.formIcon {
+  color: #404ed0; /* Icon color */
+  font-size: 20px; /* Font size for icons */
+}
+
+/* Styles for the address section */
+.formAddress {
+  display: flex; /* Display children in a row */
+  gap: 1rem; /* Spacing between child elements */
+  margin-top: 1rem; /* Top margin for spacing */
+}
+
+/* Styles for social media links */
+.socialLinks {
+  display: flex; /* Display social icons in a row */
+  gap: 2rem; /* Spacing between social icons */
+}
+
+/* Styles for form input fields */
+.formInput {
+  border: 1px solid #3a3e87; /* Border style */
+  padding: 10px; /* Padding for input fields */
+  width: 40%; /* Set the width of input fields */
+}
+
+/* Styles for the form submission section */
+.formSubmit {
+  background-color: white; /* Background color */
+  padding: 5rem; /* Padding for the form submission section */
+}
+
+/* Styles for text inputs within the form submission section */
+.formSubmit input {
+  border: none; /* Remove border */
+  border-bottom: 1px solid #2836be; /* Bottom border style */
+  width: 100%; /* Set the width to 100% */
+  margin-bottom: 1rem; /* Bottom margin for spacing */
+  padding: 1rem 0; /* Padding for input fields */
+  color: black; /* Text color */
+}
+
+/* Styles for text inputs within the form submission section on focus */
+.formSubmit input:focus {
+  outline: none; /* Remove focus outline (optional) */
+}
+
+/* Styles for text inputs within the form submission section on click (active state) */
+.formSubmit input:active {
+  outline: none; /* Remove focus outline (optional) */
+}
+
+/* Styles for text areas within the form submission section */
+.formSubmit textarea {
+  border: none; /* Remove border */
+  border-bottom: 1px solid #2836be; /* Bottom border style */
+  width: 100%; /* Set the width to 100% */
+  height: 10rem; /* Set a fixed height for text areas */
+  margin-bottom: 1rem; /* Bottom margin for spacing */
+  padding: 1rem 0; /* Padding for text areas */
+  resize: vertical; /* Allow vertical resizing */
+  color: black; /* Text color */
+}
+
+/* Styles for text areas within the form submission section on focus */
+.formSubmit textarea:focus {
+  outline: none; /* Remove focus outline (optional) */
+}
+
+/* Styles for text areas within the form submission section on click (active state) */
+.formSubmit textarea:active {
+  outline: none; /* Remove focus outline (optional) */
+}
+
+/* Styles for the submit button within the form submission section */
+.submitButton button {
+  display: flex; /* Display children in a row */
+  width: 60%; /* Set the width of the button */
+  align-items: center; /* Align items vertically */
+  border: none; /* Remove border */
+  border: 1px solid #4858e8; /* Border style */
+  padding: 10px 30px; /* Padding for the button */
+  border-left: 5px solid #4858e8; /* Left border with a different color */
+  background-color: transparent; /* Transparent background */
+  color: #4858e8; /* Text color */
+  font-weight: bolder; /* Bold font weight */
+  transition: 0.2s ease-in-out; /* Smooth transition on hover */
+  font-weight: bold; /* Bold font weight */
+}
+
+/* Styles for the submit button on hover */
+.submitButton button:hover {
+  border: 1px solid #191527; /* Border color on hover */
+  border-left: 5px solid #191527; /* Left border color on hover */
+  background-color: white; /* Background color on hover */
+  color: #191527; /* Text color on hover */
+  font-weight: bolder; /* Bold font weight on hover */
+  cursor: pointer; /* Cursor style on hover */
+}
+
+/* Styles for the icon within the submit button */
+.submitButton button svg {
+  color: #4858e8; /* Icon color */
+  height: 25px; /* Icon height */
+  width: 25px; /* Icon width */
+  margin-left: 1rem; /* Left margin for spacing */
+}
+
+/* Styles for social media icons */
+.socialIcon {
+  font-size: 30px; /* Font size for social icons */
+  color: #bec4fe; /* Icon color */
+}
+
+/* Styles for form fields with floating labels */
+.form__group {
+  position: relative; /* Positioning for label */
+  width: 100%; /* Set the width to 100% */
+  margin-bottom: 1rem; /* Bottom margin for spacing */
+}
+
+.form__field {
+  font-family: inherit; /* Inherit font family */
+  width: 100%; /* Set the width to 100% */
+  border: none; /* Remove border */
+  outline: 0; /* Remove outline */
+  font-size: 17px; /* Font size for input fields */
+  color: #fff; /* Text color */
+  padding: 7px 0; /* Padding for input fields */
+  background: transparent; /* Transparent background */
+}
+
+.form__field::placeholder {
+  color: transparent; /* Transparent placeholder text */
+}
+
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 17px; /* Font size for label */
+  cursor: text; /* Text cursor */
+  top: -5px; /* Position the label */
+  left: 10px; /* Position the label */
+}
+
+.form__field ~ .form__label {
+  font-size: 17px; /* Font size for label */
+  cursor: text; /* Text cursor */
+  top: -5px; /* Position the label */
+  left: 10px; /* Position the label */
+}
+
+.form__label {
+  position: absolute; /* Absolute positioning for label */
+  top: 5; /* Position the label at the top */
+  display: block; /* Display as a block element */
+  transition: 0.2s; /* Transition effect */
+  font-size: 17px; /* Font size for label */
+  color: #4858e8; /* Label text color */
+  pointer-events: none; /* Prevent interactions with the label */
+}
+
+.form__field:focus ~ .form__label {
+  position: absolute; /* Absolute positioning on focus */
+  top: -20px; /* Position the label above the field */
+  left: 0; /* Position the label */
+  display: block; /* Display as a block element */
+  transition: 0.2s; /* Transition effect */
+  font-size: 17px; /* Font size for label */
+  color: #4858e8; /* Label text color */
+}
+
+/* Styles for custom toast messages */
+.custom-toast {
+  position: fixed; /* Fixed positioning */
+  bottom: 20px; /* Position from the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  background-color: #007bff; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding for toast */
+  border-radius: 5px; /* Border radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow */
+  display: flex; /* Display children in a row */
+  justify-content: space-between; /* Distribute space evenly between children */
+  align-items: center; /* Align items vertically */
+  max-width: 300px; /* Maximum width of toast */
+  width: 100%; /* Full width */
+}
+
+/* Styles for custom toast buttons */
+.custom-toast button {
+  background-color: transparent; /* Transparent background */
+  border: none; /* Remove border */
+  color: #fff; /* Text color */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold font weight */
+  outline: none; /* Remove focus outline */
+}
+
+/* Styles for custom toast buttons on hover */
+.custom-toast button:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Styles for validation error messages */
+.validation-errors {
+  margin-top: 10px; /* Top margin for spacing */
+  background-color: #ffdddd; /* Background color for error messages */
+  color: #ff0000; /* Text color for error messages */
+  border: 1px solid #ff0000; /* Border color for error messages */
+  padding: 10px; /* Padding for error messages */
+  border-radius: 5px; /* Border radius */
+  font-size: 14px; /* Font size for error messages */
+}
+
+.validation-errors p {
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+  line-height: 1.5; /* Line height for error messages */
+}

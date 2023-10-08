@@ -1,0 +1,10 @@
+section {
+  background-image: linear-gradient(
+      90deg,
+      hsla(240, 59%, 7%, 0.85),
+      hsla(240, 59%, 7%, 0.85)
+    ),
+    url("https://primefort.net/images/contact_form_bg.jpg");
+  width: 100%;
+  height: 100vh;
+}
